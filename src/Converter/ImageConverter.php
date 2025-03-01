@@ -10,6 +10,8 @@ class ImageConverter implements ConverterInterface
 {
     public function convert(ElementInterface $element): string
     {
+        return '';
+
         $src   = $element->getAttribute('src');
         $alt   = $element->getAttribute('alt');
         $title = $element->getAttribute('title');
